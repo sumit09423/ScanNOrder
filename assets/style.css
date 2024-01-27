@@ -17,7 +17,7 @@ a {
   color: #6c6b6b;
 }
 
-h1{
+h1 {
   color: #6c6b6b;
 }
 
@@ -283,7 +283,7 @@ body {
 .p-dec {
   padding-top: 2%;
   line-height: 22px;
-  
+
   padding-bottom: 2%;
 }
 
@@ -519,7 +519,7 @@ h1 {
   background-image: url(./images/12151158_4885247.jpg);
   background-size: cover;
   /* background-position: center; */
-  padding: 2% ;
+  padding: 2%;
   display: flex;
   align-items: center;
 }
@@ -854,7 +854,7 @@ ul {
 }
 
 /* CHANGED CSS */
-.hero-images{
+.hero-images {
   display: flex;
   gap: 10px;
   width: 85%;
@@ -918,7 +918,7 @@ ul {
     right: 10px !important;
   }
 
-  .right-icon{
+  .right-icon {
     right: -4% !important;
   }
 
@@ -980,12 +980,12 @@ ul {
     flex-direction: column;
   }
 
-  .hero-images{
+  .hero-images {
     display: flex;
     flex-direction: column;
   }
 
-  .m-fq-img{
+  .m-fq-img {
     width: 80%;
   }
 
@@ -1020,8 +1020,6 @@ ul {
     margin-bottom: 3%;
   }
 
-
-
   /* Contact Secction */
   .contact-sec {
     height: auto;
@@ -1041,8 +1039,6 @@ ul {
     width: 350px;
     height: 350px;
   }
-
- 
 
   /* Footer  */
   .footer-section {
@@ -1098,7 +1094,7 @@ ul {
     top: auto;
   }
 
-  .hero-images{
+  .hero-images {
     width: 72%;
   }
 
@@ -1610,3 +1606,48 @@ ul {
     left: 15%;
   }
 }
+
+/* --------------------**************--------------------- */
+/* --------------------**************--------------------- */
+
+/* Blog Card Css */
+
+/* --------------------**************--------------------- */
+/* --------------------**************--------------------- */
+
+.card-img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card-title {
+  margin-bottom: 0.6rem;
+}
+
+.card-text{
+  font-size: 14px;
+}
+
+.fa-users {
+  margin-left: 1rem;
+}
+
+.card-footer {
+  font-size: 0.8rem;
+}
+
+.card-btn {
+  border: 1px solid red;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 12px;
+  color: #000000;
+}
+
+.card-btn:hover {
+  background-color: red;
+  color: white;
+}
+
