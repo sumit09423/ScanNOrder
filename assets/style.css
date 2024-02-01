@@ -209,13 +209,16 @@ body {
 .image-text {
   width: 100%;
   position: absolute;
-  top: 93%;
-  left: 16%;
+  top: 60%;
+  left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.3s ease;
   text-align: center;
-  color: #000000; /* Text color, adjust as needed */
+  color: #ffff; /* Text color, adjust as needed */
+  font-weight: 900;
+  font-size: 13px;
+  padding: 9px 6px;
 }
 
 .a-btn {
@@ -223,12 +226,11 @@ body {
   padding: 10px 14px;
   border-radius: 10px;
   text-decoration: none;
-  color: black;
+  color: red;
 }
 
 .a-btn:hover {
-  background-color: black;
-  color: white;
+  color: black;
 }
 
 .image-card:hover .image-text {
@@ -1624,7 +1626,7 @@ ul {
   margin-bottom: 0.6rem;
 }
 
-.card-text{
+.card-text {
   font-size: 14px;
 }
 
@@ -1650,4 +1652,3 @@ ul {
   background-color: red;
   color: white;
 }
-
