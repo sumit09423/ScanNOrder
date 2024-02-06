@@ -18,6 +18,10 @@
   color: red !important;
 }
 
+.navbar-toggler-icon{
+  background-image: url(./images/icons8-menu.svg) !important;
+}
+
 p {
   line-height: 22px;
   color: #6c6b6b;
