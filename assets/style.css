@@ -9,6 +9,15 @@
   line-height: 22px;
 }
 
+/* Navigation Bar font  */
+.nav-link {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+
 p {
   line-height: 22px;
   color: #6c6b6b;
@@ -200,11 +209,8 @@ body {
   height: auto;
   transition: transform 0.3s ease;
   height: 480px !important; /* Adjust the height as needed */
-}
-
-.image-card:hover img {
   transform: scale(1.1);
-  filter: blur(4px);
+  /* filter: blur(4px); */
 }
 
 .image-text {
@@ -213,17 +219,17 @@ body {
   top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0;
+  /* opacity: 0; */
   transition: opacity 0.3s ease;
   text-align: center;
   color: #000000; /* Text color, adjust as needed */
 }
 
-.image-text>p{
+.image-text > p {
   font-size: 13px;
   color: #fff;
   font-weight: 600;
-} 
+}
 
 .centered {
   width: 100%;
@@ -232,39 +238,16 @@ body {
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0; /* Initially set to be invisible */
+  /* opacity: 0; Initially set to be invisible */
   transition: opacity 0.3s ease; /* Add a smooth transition effect */
 
   /* Additional styles for better visibility or design */
   /* background-color: rgba(0, 0, 0, 0.8); */
   font-size: 25px;
-  
-  color: #FFF;
+
+  color: #fff;
   font-weight: 700;
   padding: 10px;
-}
-
-
-
-.a-btn {
-  /* border: 1px solid red; */
-  padding: 10px 14px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: black;
-}
-
-.a-btn:hover {
-  background-color: black;
-  color: white;
-}
-
-.image-card:hover .image-text {
-  opacity: 1;
-}
-
-.image-card:hover .centered {
-  opacity: 1;
 }
 
 .bac-main {
